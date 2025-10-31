@@ -49,7 +49,7 @@ var Module = typeof Module !== 'undefined' ? Module : {};
       Module.setStatus('Loading asset manifest...');
     }
 
-    loadManifest('data/manifest.json').then(function(files) {
+    loadManifest('https://cdn.jsdelivr.net/gh/swebsites469-bit/T0Xpyt3ZAuXUgZiPfnBy7IKynVVeKY7q/data/manifest.json').then(function(files) {
       Module['FS_createPath']('/', 'data', true, true);
       var createdDirs = {
         '/data': true
